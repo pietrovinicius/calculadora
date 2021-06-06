@@ -12,14 +12,14 @@
         <form  method="get" action="Calculadora">
             <table>
                 <tr>
-                    <td>Valor 1: </td>
+                    <td>Valor1: </td>
                     <td>
                         <input type="text" size="10" name="valor1" value=${valor1}>
                         <span style="color:red">${erroValor1}</span>
                     </td>
                 </tr>
                 <tr>
-                    <td>Valor 2: </td>
+                    <td>Valor2: </td>
                     <td>
                         <input type="text" size="10" name="valor2" value=${valor2}>
                         <span style="color:red">${erroValor2}</span>
@@ -27,7 +27,7 @@
                     </td>
                 </tr>   
                 <tr>
-                    <td>Op:</td>
+                    <td>Operação:</td>
                     <td>
                         <select name="op">
                             <option value = "+"> + </option>
@@ -38,8 +38,8 @@
 
                     </td>
                 <tr>
-                    <td><span>${tmp}</span></td>
-                    <td><span style="color:red">${expressao}</span></td>
+                    <td><span>${aux}</span></td>
+                    <td><span style="color:red">${resultado}</span></td>
                 </tr>
                 <tr>
                     <td></td>
